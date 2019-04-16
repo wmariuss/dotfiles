@@ -1,0 +1,8 @@
+[user]
+	name = Marius Stanca
+	email = me@marius.xyz
+	signingkey = 3F18F3CF10AD6E8D
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
