@@ -1,0 +1,40 @@
+{
+"editor.snippetSuggestions": "none",
+"editor.tabCompletion": "on",
+"editor.glyphMargin": true,
+"editor.minimap.enabled": false,
+"workbench.colorCustomizations": {
+    "statusBar.background" : "#1A1A1A",
+    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.debuggingBackground": "#263238"
+},
+"workbench.startupEditor": "newUntitledFile",
+"todo.symbols.box": "▪",
+"workbench.activityBar.visible": true,
+"files.autoSave": "onFocusChange",
+"files.exclude": {
+  "*.egg-info": true,
+  "**/__pycache__": true,
+  "**/.cache": true,
+  "**/.coverage": true,
+  "**/.DS_Store": true,
+  "**/.idea": true,
+  "**/.mypy_cache": true,
+  "**/.pytest_cache": true,
+  "**/.tox": true,
+  "**/.venv": true,
+  "**/.vscode": true,
+  "**/*.py[co]": true,
+  "**/.terraform": true,
+  "vendor": true
+},
+"workbench.statusBar.feedback.visible": false,
+"window.zoomLevel": 0,
+"python.venvPath": "/Users/mariuss/.local/share/virtualenvs",
+"python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
+"python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
+"python.terminal.activateEnvironment": true,
+"python.workspaceSymbols.enabled": true,
+"python.envFile": "${workspaceFolder}/.env",
+"diffEditor.ignoreTrimWhitespace": true
+}
