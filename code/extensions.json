@@ -1,0 +1,24 @@
+{
+    "recommendations": [
+        "bungcip.better-toml",
+        "coolbear.systemd-unit-file",
+        "DavidAnson.vscode-markdownlint",
+        "DavidWang.ini-for-vscode",
+        "fabiospampinato.vscode-todo-plus",
+        "faustinoaq.crystal-lang",
+        "korekontrol.saltstack",
+        "kosz78.nim",
+        "marcostazi.VS-code-vagrantfile",
+        "mauve.terraform",
+        "mikestead.dotenv",
+        "ms-python.anaconda-extension-pack",
+        "ms-python.python",
+        "ms-vscode.cpptools",
+        "ms-vscode.Go",
+        "PeterJausovec.vscode-docker",
+        "redhat.vscode-yaml",
+        "wholroyd.jinja",
+        "zhangciwu.swig-tpl"
+    ]
+}
+
