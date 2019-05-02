@@ -4,4 +4,4 @@ My environment settings.
 
 ## Authors
 
-* [@wmariuss](https://twitter.com/wmariuss)
+* [Marius Stanca](mailto:me@marius.xyz)
