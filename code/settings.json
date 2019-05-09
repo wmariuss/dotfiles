@@ -33,6 +33,8 @@
 "python.venvPath": "/Users/mariuss/.local/share/virtualenvs",
 "python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
 "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
+"python.linting.pep8Enabled": true,
+"python.linting.pylintEnabled": true,
 "python.terminal.activateEnvironment": true,
 "python.workspaceSymbols.enabled": true,
 "python.envFile": "${workspaceFolder}/.env",
