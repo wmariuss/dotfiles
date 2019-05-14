@@ -40,5 +40,6 @@
   "python.terminal.activateEnvironment": true,
   "python.workspaceSymbols.enabled": true,
   "python.envFile": "${workspaceFolder}/.env",
-  "diffEditor.ignoreTrimWhitespace": true
+  "diffEditor.ignoreTrimWhitespace": true,
+  "files.insertFinalNewline": true
 }
