@@ -6,8 +6,8 @@
   "editor.tabSize": 4,
   "editor.insertSpaces": false,
   "workbench.colorCustomizations": {
-    "statusBar.background" : "#1A1A1A",
-    "statusBar.noFolderBackground" : "#212121",
+    "statusBar.background": "#1A1A1A",
+    "statusBar.noFolderBackground": "#212121",
     "statusBar.debuggingBackground": "#263238"
   },
   "workbench.startupEditor": "newUntitledFile",
@@ -37,9 +37,13 @@
   "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
   "python.linting.pep8Enabled": true,
   "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintArgs": ["--max-line-length=180"],
+  "python.linting.pep8Args": ["--max-line-length=180"],
   "python.terminal.activateEnvironment": true,
   "python.workspaceSymbols.enabled": true,
   "python.envFile": "${workspaceFolder}/.env",
   "diffEditor.ignoreTrimWhitespace": true,
   "files.insertFinalNewline": true
 }
+
