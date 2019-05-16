@@ -3,8 +3,8 @@
   "editor.tabCompletion": "on",
   "editor.glyphMargin": true,
   "editor.minimap.enabled": false,
+  "editor.insertSpaces": true,
   "editor.tabSize": 4,
-  "editor.insertSpaces": false,
   "workbench.colorCustomizations": {
     "statusBar.background": "#1A1A1A",
     "statusBar.noFolderBackground": "#212121",
