@@ -1,3 +1,4 @@
+# Marius Stanca <me@marius.xyz>
 # Aliases
 alias ll='ls -halG'
 alias l='ls'
@@ -28,6 +29,9 @@ alias gpu='git push'
 alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 alias glg2='git log --date-order --all --graph --name-status --format="%C(green)%H%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
 
+# PATH
+export PATH="/usr/local/sbin:$PATH"
+
 # Git branch
 function parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
@@ -44,7 +48,7 @@ fi
 # Setup PROXY for work env
 PROXY_IP="10.47.2.10:8080"
 
-function setup_proxy() {
+function enable_proxy() {
   enable=$1
   if [ $enable == "true" ];
   then
@@ -58,22 +62,18 @@ function enable_wifi() {
   networksetup -setairportnetwork en0 0000-2 eith/e7AeheiG7die5
 }
 
-parse_git_branch
+# Customize Terminal style
+PS1='
+[\u] -> (\W)$(parse_git_branch)
+-> '
 
+export EDITOR=/usr/local/bin/vim
 # pyenv
 eval "$(pyenv init -)"
 
-# Other settings
-export EDITOR=/usr/local/bin/vim
-
-# Customize Terminal style
-PS1='
-$PWD
-==>$(parse_git_branch) '
-# PATH
-export PATH="/usr/local/sbin:$PATH"
 # For crystal: https://github.com/crystal-lang/crystal/issues/4745
 export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
+
 # Go env
 export GOPATH=$HOME/work/platforms/go
 export GOROOT=/usr/local/opt/go/libexec
@@ -86,5 +86,6 @@ export PATH=$PATH:$GOROOT/bin
 export LC_ALL=en_US.utf-8
 export LANG=en_US.utf-8
 
-
+# Enable poetry
 export PATH="$HOME/.poetry/bin:$PATH"
+
