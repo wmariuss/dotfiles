@@ -44,6 +44,7 @@
   "python.workspaceSymbols.enabled": true,
   "python.envFile": "${workspaceFolder}/.env",
   "diffEditor.ignoreTrimWhitespace": true,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "workbench.colorTheme": "Stockholm Theme"
 }
 
