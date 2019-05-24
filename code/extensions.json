@@ -18,7 +18,8 @@
         "PeterJausovec.vscode-docker",
         "redhat.vscode-yaml",
         "wholroyd.jinja",
-        "zhangciwu.swig-tpl"
+        "zhangciwu.swig-tpl",
+	"LudvigLundgren.StockholmTheme"
     ]
 }
 
