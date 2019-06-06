@@ -32,6 +32,7 @@
   },
   "workbench.statusBar.feedback.visible": false,
   "window.zoomLevel": 0,
+  "files.trimTrailingWhitespace": true,
   "python.venvPath": "/Users/mariuss/.local/share/virtualenvs",
   "python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
   "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
