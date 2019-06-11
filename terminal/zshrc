@@ -11,7 +11,7 @@ export ZSH="/Users/mariuss/.oh-my-zsh"
 # THEMES: sunrise, avit
 # ZSH_THEME="robbyrussell"
 
-ZSH_THEME="avit"
+ZSH_THEME="sunrise"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -104,6 +104,20 @@ source $ZSH/oh-my-zsh.sh
 
 ## Marius Stanca <me@marius.xyz>
 # Custom zsh profile
+
+# Say how long a command took, if it took more than 30 seconds
+export REPORTTIME=30
+
+# Zsh spelling correction options
+#setopt CORRECT
+#setopt DVORAK
+
+# Prompts for confirmation after 'rm *' etc
+# Helps avoid mistakes like 'rm * o' when 'rm *.o' was intended
+setopt RM_STAR_WAIT
+
+# Don’t nice background processes
+setopt NO_BG_NICE
 
 # Aliases
 # Networking
