@@ -37,7 +37,8 @@
 		"*.git",
 		"*.terraform",
 		"dist",
-		"__pycache__"
+		"__pycache__",
+		".vscode"
 	],
 	"font_face": "Source Code Pro",
 	"font_options":
