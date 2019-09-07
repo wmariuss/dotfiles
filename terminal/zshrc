@@ -11,7 +11,9 @@ export ZSH="/Users/mariuss/.oh-my-zsh"
 # THEMES: sunrise, avit
 # ZSH_THEME="robbyrussell"
 
-ZSH_THEME="sunrise"
+#ZSH_THEME="sunrise"
+ZSH_THEME="sepshell"
+#ZSH_THEME="lambda-gitster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -71,7 +73,7 @@ ZSH_THEME="sunrise"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git terraform)
+plugins=(git terraform python)
 
 source $ZSH/oh-my-zsh.sh
 
