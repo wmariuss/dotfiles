@@ -5,6 +5,11 @@
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
+  "editor.fontSize": 13,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#1A1A1A",
     "statusBar.noFolderBackground": "#212121",
@@ -13,6 +18,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "todo.symbols.box": "▪",
   "workbench.activityBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": true,
   "files.autoSave": "onFocusChange",
   "files.exclude": {
     "*.egg-info": true,
@@ -30,22 +36,32 @@
     "**/.terraform": true,
     "vendor": true
   },
-  "workbench.statusBar.feedback.visible": false,
   "window.zoomLevel": 0,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.trimTrailingWhitespace": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintArgs": [
+    "--max-line-length=180"
+  ],
   "python.venvPath": "/Users/mariuss/.local/share/virtualenvs",
   "python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
-  "python.pythonPath": "${workspaceFolder}/.venv/bin/python3",
-  "python.linting.pep8Enabled": true,
-  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/Users/mariuss/.pyenv/shims/python",
   "python.linting.mypyEnabled": true,
-  "python.linting.pylintArgs": ["--max-line-length=180"],
-  "python.linting.pep8Args": ["--max-line-length=180"],
   "python.terminal.activateEnvironment": true,
   "python.workspaceSymbols.enabled": true,
   "python.envFile": "${workspaceFolder}/.env",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/Users/mariuss/.pyenv/shims/black",
+  "python.formatting.blackArgs": [
+    "--line-length=90"
+  ],
   "diffEditor.ignoreTrimWhitespace": true,
   "files.insertFinalNewline": true,
-  "workbench.colorTheme": "Stockholm Theme"
+  "workbench.colorTheme": "Stockholm Theme",
+  "workbench.statusBar.visible": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
 }
 
