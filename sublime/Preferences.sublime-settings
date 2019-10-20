@@ -1,9 +1,9 @@
-
 {
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Theme - Cyanide/Twilightcyanide.tmTheme",
 	"copy_with_empty_selection": false,
 	"drag_text": false,
 	"draw_minimap_border": true,
@@ -38,7 +38,9 @@
 		"*.terraform",
 		"dist",
 		"__pycache__",
-		".vscode"
+		".vscode",
+		".tox",
+		".mypy_cache"
 	],
 	"font_face": "Source Code Pro",
 	"font_options":
@@ -68,13 +70,12 @@
 	"show_errors_inline": false,
 	"show_full_path": false,
 	"sidebar_default": true,
+	"spacefunk_folder_icons": true,
 	"spacegray_tabs_font_normal": true,
+	"theme": "Cyanide.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"word_wrap": true,
-	"color_scheme": "Packages/Theme - Cyanide/Twilightcyanide.tmTheme",
-	"theme": "Cyanide.sublime-theme",
-	"spacefunk_folder_icons": true
+	"word_wrap": true
 }
 
