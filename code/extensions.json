@@ -19,7 +19,9 @@
         "redhat.vscode-yaml",
         "wholroyd.jinja",
         "zhangciwu.swig-tpl",
-	"LudvigLundgren.StockholmTheme"
+	"LudvigLundgren.StockholmTheme",
+	"humao.rest-client",
+	"alefragnani.project-manager"
     ]
 }
 
