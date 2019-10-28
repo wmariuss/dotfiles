@@ -58,10 +58,11 @@
   ],
   "diffEditor.ignoreTrimWhitespace": true,
   "files.insertFinalNewline": true,
-  "workbench.colorTheme": "Stockholm Theme",
   "workbench.statusBar.visible": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
-  }
+  },
+  "workbench.iconTheme": null,
+  "workbench.colorTheme": "Monokai Pro"
 }
 
