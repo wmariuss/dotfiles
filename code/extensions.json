@@ -19,8 +19,8 @@
         "redhat.vscode-yaml",
         "wholroyd.jinja",
         "zhangciwu.swig-tpl",
-	"LudvigLundgren.StockholmTheme",
 	"humao.rest-client",
+	"monokai.theme-monokai-pro-vscode",
 	"alefragnani.project-manager"
     ]
 }
