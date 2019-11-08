@@ -149,6 +149,14 @@ alias glg2='git log --date-order --all --graph --name-status --format="%C(green)
 # PATH
 export PATH="/usr/local/sbin:$PATH"
 
+# Custom functions
+function setup_work_git() {
+  git config --local user.signingkey 26D88A043B32987B9F18D6953DCB8015D98A2E5F
+  git config --local user.email "smarius@lenovo.com"
+  git config --local gpg.program gpg2
+  git config --local commit.gpgsign true
+}
+
 function enable_wifi() {
   networksetup -setairportnetwork en0 0000-2 eith/e7AeheiG7die5
 }

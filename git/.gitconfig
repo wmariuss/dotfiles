@@ -2,6 +2,8 @@
 	name = Marius Stanca
 	email = me@marius.xyz
 	signingkey = 3F18F3CF10AD6E8D
+[core]
+	editor = vim
 [commit]
 	gpgsign = true
 [gpg]
