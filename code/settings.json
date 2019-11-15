@@ -64,7 +64,8 @@
   },
   "workbench.iconTheme": null,
   "workbench.colorTheme": "Hop Light",
-  "editor.fontFamily": "Monaco",
-  "editor.fontLigatures": true
+  "editor.fontFamily": "Menlo",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 21
 }
 
