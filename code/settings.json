@@ -5,7 +5,7 @@
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
   "editor.tabSize": 4,
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "editor.cursorStyle": "block",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
@@ -29,11 +29,11 @@
     "**/.idea": true,
     "**/.mypy_cache": true,
     "**/.pytest_cache": true,
+    "**/.terraform": true,
     "**/.tox": true,
     "**/.venv": true,
     "**/.vscode": true,
     "**/*.py[co]": true,
-    "**/.terraform": true,
     "vendor": true
   },
   "window.zoomLevel": 0,
@@ -63,6 +63,8 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "workbench.iconTheme": null,
-  "workbench.colorTheme": "Monokai Pro"
+  "workbench.colorTheme": "Hop Light",
+  "editor.fontFamily": "Monaco",
+  "editor.fontLigatures": true
 }
 
