@@ -42,12 +42,13 @@
 		".tox",
 		".mypy_cache"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Menlo",
+	"font_size": 12,
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 12,
+	"gravity_highlight_color_blue": true,
 	"gravity_tab_height_short": true,
 	"gravity_title_bar": true,
 	"highlight_line": true,
@@ -73,7 +74,6 @@
 	"spacefunk_folder_icons": true,
 	"spacegray_tabs_font_normal": true,
 	"theme": "Gravity.sublime-theme",
-        "gravity_highlight_color_blue": true,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
