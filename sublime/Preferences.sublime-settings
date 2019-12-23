@@ -3,7 +3,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme",
 	"copy_with_empty_selection": false,
 	"drag_text": false,
 	"draw_minimap_border": true,
@@ -48,7 +48,7 @@
 	[
 		"no_round"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_height_short": true,
 	"gravity_title_bar": true,
@@ -74,7 +74,7 @@
 	"sidebar_default": true,
 	"spacefunk_folder_icons": true,
 	"spacegray_tabs_font_normal": true,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"theme": "Reverse Gravity.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
