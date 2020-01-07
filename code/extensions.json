@@ -21,7 +21,8 @@
         "zhangciwu.swig-tpl",
 	"humao.rest-client",
 	"monokai.theme-monokai-pro-vscode",
-	"alefragnani.project-manager"
+	"alefragnani.project-manager",
+	"alefragnani.Bookmarks"
     ]
 }
 

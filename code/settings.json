@@ -10,15 +10,15 @@
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.formatOnSave": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "todo.symbols.box": "▪",
+  "workbench.activityBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#1A1A1A",
     "statusBar.noFolderBackground": "#212121",
     "statusBar.debuggingBackground": "#263238"
   },
-  "workbench.startupEditor": "newUntitledFile",
-  "todo.symbols.box": "▪",
-  "workbench.activityBar.visible": true,
-  "workbench.editor.highlightModifiedTabs": true,
   "files.autoSave": "onFocusChange",
   "files.exclude": {
     "*.egg-info": true,
@@ -63,9 +63,11 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "workbench.iconTheme": null,
-  "workbench.colorTheme": "Hop Light",
   "editor.fontFamily": "Menlo",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 21
+  "editor.lineHeight": 21,
+  "workbench.colorTheme": "Hop Light",
+  "projectManager.groupList": true,
+  "projectManager.sortList": "Name"
 }
 
