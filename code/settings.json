@@ -4,13 +4,13 @@
   "editor.glyphMargin": true,
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
-  "editor.tabSize": 4,
   "editor.fontSize": 12,
-  "editor.cursorStyle": "block",
+  "editor.tabSize": 4,
+  "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.formatOnSave": true,
-  "workbench.startupEditor": "newUntitledFile",
+  "workbench.startupEditor": "none",
   "todo.symbols.box": "▪",
   "workbench.activityBar.visible": true,
   "workbench.editor.highlightModifiedTabs": true,
@@ -40,32 +40,36 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.trimTrailingWhitespace": true,
   "python.linting.enabled": true,
+  "python.linting.pylintPath": "pylint",
   "python.linting.pylintEnabled": true,
   "python.linting.pylintArgs": [
-    "--max-line-length=180"
+    "--max-line-length=120"
   ],
-  "python.venvPath": "/Users/mariuss/.local/share/virtualenvs",
-  "python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
-  "python.pythonPath": "/Users/mariuss/.pyenv/shims/python",
+  "python.venvPath": "/home/mariuss/.local/share/virtualenvs",
+  "python.pipenvPath": "/home/mariuss/.pyenv/shims/pipenv",
+  "python.pythonPath": "/home/mariuss/.pyenv/shims/python",
   "python.linting.mypyEnabled": true,
+  "python.linting.mypyPath": "/home/mariuss/.pyenv/shims/mypy",
   "python.terminal.activateEnvironment": true,
   "python.workspaceSymbols.enabled": true,
   "python.envFile": "${workspaceFolder}/.env",
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/Users/mariuss/.pyenv/shims/black",
+  "python.formatting.blackPath": "/home/mariuss/.pyenv/shims/black",
   "python.formatting.blackArgs": [
-    "--line-length=90"
+    "--line-length",
+    "90"
   ],
   "diffEditor.ignoreTrimWhitespace": true,
   "files.insertFinalNewline": true,
   "workbench.statusBar.visible": true,
+  "workbench.statusBar.feedback.visible": false,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+    "editor.formatOnPaste": false
   },
   "workbench.iconTheme": null,
-  "editor.fontFamily": "Menlo",
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
+  "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
   "workbench.colorTheme": "Hop Light",
   "projectManager.groupList": true,
   "projectManager.sortList": "Name"
