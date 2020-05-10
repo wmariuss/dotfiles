@@ -72,6 +72,20 @@
   "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
   "workbench.colorTheme": "Hop Light",
   "projectManager.groupList": true,
-  "projectManager.sortList": "Name"
+  "projectManager.sortList": "Name",
+  "markdownlint.config": {
+    "no-inline-html": {
+      "allowed_elements": [
+        "summary",
+        "details",
+        "h1",
+        "p",
+        "b",
+        "i"
+      ]
+    }
+  },
+  "timeline.excludeSources": [],
+  "editor.rulers": []
 }
 
