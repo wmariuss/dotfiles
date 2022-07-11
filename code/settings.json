@@ -4,7 +4,6 @@
   "editor.glyphMargin": true,
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
-  "editor.fontSize": 12,
   "editor.tabSize": 4,
   "editor.cursorStyle": "line-thin",
   "editor.cursorBlinking": "smooth",
@@ -19,6 +18,7 @@
     "statusBar.noFolderBackground": "#212121",
     "statusBar.debuggingBackground": "#263238"
   },
+  "editor.tokenColorCustomizations": {},
   "files.autoSave": "onFocusChange",
   "files.exclude": {
     "*.egg-info": true,
@@ -36,7 +36,6 @@
     "**/*.py[co]": true,
     "vendor": true
   },
-  "window.zoomLevel": 0,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.trimTrailingWhitespace": true,
   "python.linting.enabled": true,
@@ -45,16 +44,16 @@
   "python.linting.pylintArgs": [
     "--max-line-length=120"
   ],
-  "python.venvPath": "/home/mariuss/.local/share/virtualenvs",
-  "python.pipenvPath": "/home/mariuss/.pyenv/shims/pipenv",
-  "python.pythonPath": "/home/mariuss/.pyenv/shims/python",
+  "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs",
+  "python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
+  "python.pythonPath": "/Users/mariuss/.pyenv/shims/python",
   "python.linting.mypyEnabled": true,
-  "python.linting.mypyPath": "/home/mariuss/.pyenv/shims/mypy",
+  "python.linting.mypyPath": "/Users/mariuss/.pyenv/shims/mypy",
   "python.terminal.activateEnvironment": true,
   "python.workspaceSymbols.enabled": true,
   "python.envFile": "${workspaceFolder}/.env",
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/home/mariuss/.pyenv/shims/black",
+  "python.formatting.blackPath": "/Users/mariuss/.pyenv/shims/black",
   "python.formatting.blackArgs": [
     "--line-length",
     "90"
@@ -70,7 +69,6 @@
   "editor.fontLigatures": true,
   "editor.lineHeight": 21,
   "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
-  "workbench.colorTheme": "Hop Light",
   "projectManager.groupList": true,
   "projectManager.sortList": "Name",
   "markdownlint.config": {
@@ -86,6 +84,20 @@
     }
   },
   "timeline.excludeSources": [],
-  "editor.rulers": []
+  "editor.rulers": [],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "python.showStartPage": false,
+  "redhat.telemetry.enabled": false,
+  "python.defaultInterpreterPath": "/Users/mariuss/.pyenv/shims/python",
+  "yaml.trace.server": "messages",
+  "yaml.format.printWidth": 100,
+  "workbench.colorTheme": "βui - Tomorrow Dark",
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.mac": "/Users/mariuss/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.codeActionsOnSave": {}
 }
-
