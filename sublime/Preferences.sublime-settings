@@ -1,10 +1,15 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"copy_with_empty_selection": false,
-	"drag_text": false,
-	"draw_minimap_border": true,
-	"enable_tab_scrolling": true,
-	"ensure_newline_at_eof_on_save": true,
+	"color_scheme": "Monokai Gravity.sublime-color-scheme",
+	"theme": "Reverse Gravity.sublime-theme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"font_face": "Menlo",
+	"font_options":
+	[
+		"no_round"
+	],
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -39,21 +44,18 @@
 		".mypy_cache",
 		".idea"
 	],
-	"font_face": "Menlo",
-	"font_options":
-	[
-		"no_round"
-	],
-	"font_size": 10,
+	"settings":
+	{
+		"sublack.black_on_save": true
+	},
+	"enable_tab_scrolling": true,
+	"ensure_newline_at_eof_on_save": true,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_height_short": true,
 	"gravity_title_bar": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"gpu_window_buffer": false,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"match_brackets_content": false,
@@ -64,10 +66,6 @@
 	"preview_on_click": true,
 	"scroll_past_end": true,
 	"scroll_speed": 5.0,
-	"settings":
-	{
-		"sublack.black_on_save": true
-	},
 	"show_definitions": false,
 	"show_encoding": true,
 	"show_errors_inline": false,
@@ -75,10 +73,11 @@
 	"sidebar_default": true,
 	"spacefunk_folder_icons": true,
 	"spacegray_tabs_font_normal": true,
-	"theme": "Gravity.sublime-theme",
-	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"font_size": 12,
+	"copy_with_empty_selection": false,
+	"drag_text": false,
+	"draw_minimap_border": true,
 }
-
