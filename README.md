@@ -1,6 +1,6 @@
-# dotfiles
+# .dotfiles
 
-My environment settings.
+My .dotfiles. For reference and backup.
 
 ## Authors
 
