@@ -3,7 +3,7 @@ add_newline = true
 [aws]
 format = 'on [$symbol($profile )(\($region\) )]($style)'
 style = 'bold blue'
-symbol = " "
+symbol = "🅰 "
 
 [buf]
 symbol = " "
@@ -59,6 +59,12 @@ style = "bright-black"
 
 [git_metrics]
 disabled = false
+added_style = 'bold blue'
+format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = '🔖 '
 
 [golang]
 symbol = " "
@@ -162,7 +168,7 @@ symbol = " "
 symbol = " "
 
 [python]
-symbol = " "
+symbol = "  "
 
 [rlang]
 symbol = "󰟔 "
@@ -182,4 +188,8 @@ symbol = " "
 [zig]
 symbol = " "
 
+[helm]
+format = 'via [⎈ $version](bold white) '
 
+[container]
+format = '[$symbol \[$name\]]($style) '
