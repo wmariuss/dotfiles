@@ -1,6 +1,6 @@
-# .dotfiles
+# dotfiles
 
-My `.dotfiles`. For reference and backup.
+My `dotfiles`. For reference and backup.
 
 ## Authors
 
