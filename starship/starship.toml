@@ -41,7 +41,6 @@ symbol = " "
 [git_branch]
 symbol = " "
 format = "[$symbol$branch]($style) "
-style = "bright-black"
 
 [jobs]
 symbol = ""
@@ -168,7 +167,7 @@ symbol = " "
 symbol = " "
 
 [python]
-symbol = "  "
+symbol = " "
 pyenv_version_name = true
 
 [rlang]
