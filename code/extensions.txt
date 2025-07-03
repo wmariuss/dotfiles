@@ -1,0 +1,16 @@
+alefragnani.bookmarks
+alefragnani.project-manager
+davidanson.vscode-markdownlint
+fabiospampinato.vscode-todo-plus
+golang.go
+gruntfuggly.todo-tree
+hashicorp.terraform
+magicstack.magicpython
+mikestead.dotenv
+mobalic.jetbrains-dark-theme
+mobalic.jetbrains-new-dark
+ms-python.debugpy
+ms-python.python
+redhat.vscode-yaml
+samuelcolvin.jinjahtml
+waderyan.gitblame

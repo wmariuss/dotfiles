@@ -1,0 +1,82 @@
+{
+    "editor.snippetSuggestions": "none",
+    "editor.tabCompletion": "on",
+    "editor.glyphMargin": true,
+    "editor.minimap.enabled": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "none",
+    "todo.symbols.box": "▪",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "editor.tokenColorCustomizations": {},
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "*.egg-info": true,
+        "**/__pycache__": true,
+        "**/.cache": true,
+        "**/.coverage": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/.terraform": true,
+        "**/.tox": true,
+        "**/.venv": true,
+        "**/.vscode": true,
+        "**/*.py[co]": true,
+        "vendor": true
+    },
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "files.trimTrailingWhitespace": true,
+    "python.venvPath": "~/Library/Caches/pypoetry/virtualenvs",
+    "python.pipenvPath": "/Users/mariuss/.pyenv/shims/pipenv",
+    "python.terminal.activateEnvironment": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.insertFinalNewline": true,
+    "workbench.statusBar.visible": true,
+    "[python]": {
+        "editor.formatOnPaste": false
+    },
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 21,
+    "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+    "projectManager.groupList": true,
+    "projectManager.sortList": "Name",
+    "markdownlint.config": {
+        "no-inline-html": {
+            "allowed_elements": [
+                "summary",
+                "details",
+                "h1",
+                "p",
+                "b",
+                "i"
+            ]
+        }
+    },
+    "editor.rulers": [],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "redhat.telemetry.enabled": false,
+    "python.defaultInterpreterPath": "/Users/mariuss/.pyenv/shims/python",
+    "yaml.trace.server": "messages",
+    "yaml.format.printWidth": 100,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": {},
+    "editor.fontSize": 13,
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Jetbrains Dark Theme",
+    "editor.dropIntoEditor.preferences": []
+}
